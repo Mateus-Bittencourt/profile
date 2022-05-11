@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=PT+Sans&family=Space+Mono&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oxygen', sans-serif;
+}
+
+body {
+  background-color: rgba(226, 21, 21, 0.637);
+}
+
+p {
+  font-family: 'PT Sans', sans-serif;
+  color: rgba(77, 6, 6, 0.651);
+  font-size: 18px;
+}
+
+.about-me {
+  padding: 10px 20px;
+  background-color: rgba(248, 21, 21, 0.662);
+  color: white;
+  text-decoration: none;
+  border-radius: 15px;
+
+}
+.about-me:hover {
+  background-color: rgba(248, 21, 21, 1);
+}
+
+.card {
+  margin: 20px auto;
+  width: 500px;
+  background-color: antiquewhite;
+  text-align: center;
+  border-radius: 10px;
+  padding: 50px;
+  box-shadow: 0 0 1em rgb(0, 0, 0);
+}
+
+.container img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+h1 {
+  color: rgb(200, 2, 2);
+}
+
+.follow {
+  font-size: 30px;
+
+}
+.follow a {
+  color: rgba(0, 0, 0, 0.849);
+}
+
+.follow a:hover {
+  color: red;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    width: 80vw;
+    padding: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+
+}
