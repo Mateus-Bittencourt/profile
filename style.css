@@ -64,7 +64,7 @@ h2 {
   margin-bottom: 10px;
 }
 
-@media (max-width: 540px) {
+@media (max-width: 720px) {
   /* For a screen < 540px, this CSS will be read */
   .card {
     width: 80vw;
